@@ -62,7 +62,7 @@
 
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getBrands } from "../../Redux/ProductSlice";
+import { getBrands } from "../../Redux/productSlice";
 import { Link, useOutletContext } from "react-router-dom";
 import Loader from "../Loader/Loader";
 
